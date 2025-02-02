@@ -19,10 +19,10 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-       <div style ={{color:textColor}}>
-        <p>Temperature: {weatherInput.temperature}</p>
-        <p>Conditions: {weatherInput.conditions}</p>
-       </div>
+       <div style={{ color: textColor }}>
+        <p><span>Temperature: </span>{weatherInput.temperature}</p>
+        <p><span>conditions: </span>{weatherInput.conditions}</p>
+      </div>
     </div>
   )
 }
