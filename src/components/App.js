@@ -21,7 +21,7 @@ const App = () => {
         {/* Do not remove the main div */}
        <div style={{ color: textColor }}>
         <p><span>Temperature: </span>{weatherInput.temperature}</p>
-        <p><span>conditions: </span>{weatherInput.conditions}</p>
+        <p><span>Conditions: </span>{weatherInput.conditions}</p>
       </div>
     </div>
   )
